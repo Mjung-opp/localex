@@ -1,0 +1,339 @@
+{
+  "sections": {
+    "product": {
+      "blocks": {
+        "form": {
+          "show_gift_card_recipient_form": {
+            "label": "Show recipient information form for gift card products",
+            "info": "Gift card products can optionally be sent direct to a recipient along with a personal message. [Learn more](https://help.shopify.com/en/manual/online-store/themes/customizing-them...)"
+          }
+        },
+        "complementary_products": {
+          "name": "Complementary products",
+          "settings": {
+            "paragraph": {
+              "content": "To select complementary products, add the Search & Discovery app. [Learn more](https://shopify.dev/themes/product-merchandising/recommendations)"
+            },
+            "heading": {
+              "label": "Heading"
+            },
+            "product_recommendation_limit": {
+              "label": "Maximum products to show"
+            },
+            "products_per_slide": {
+              "label": "Number of products per page"
+            }
+          }
+        }
+      }
+    },
+    "age_gate": {
+      "name": "Page age gate",
+      "minimum_age": {
+        "label": "Minimum age required to access page"
+      },
+      "presets": {
+        "name": "Page age gate"
+      }
+    }
+    // ... all other "sections" from schemaflex
+    // ... all "sections" from schemaprest, merged and deduped where keys overlap
+  },
+  "settings_schema": {
+    "age_gate": {
+      "name": "Age gate",
+      "enable_site_wide": {
+        "label": "Enable site-wide"
+      },
+      "minimum_age": {
+        "label": "Minimum age required to access site"
+      },
+      "heading": {
+        "label": "Heading"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "show_logo": {
+        "label": "Show logo",
+        "info": "Visit [brand settings](/admin/settings/branding) to edit logo."
+      }
+    }
+    // ... all "settings_schema" from schemaflex
+  },
+  "pxu_sections": {
+    // ... all "pxu_sections" from schemaflex
+  },
+  "global": {
+    "colors": {
+      "category": "Colors",
+      "scheme": "Color scheme",
+      "background": "Background",
+      "background_gradient": "Background gradient",
+      "background_opacity": "Background opacity",
+      "text": "Text",
+      "text_shadow": "Text shadow",
+      "border": "Border",
+      "icon": "Icon",
+      "button_background": "Button background",
+      "button_text": "Button text",
+      "overlay_color": "Overlay",
+      "overlay_opacity": "Overlay opacity",
+      "gradient_overlay": "Gradient overlay"
+    },
+    "sizes": {
+      "size": "Size",
+      "section_width": "Section width",
+      "content_width": "Content width",
+      "x_small": "X-Small",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "x_large": "X-Large",
+      "fit_screen": "Fit screen",
+      "full_width": "Full width",
+      "original_image_ratio": "Original image ratio",
+      "original_video_ratio": "Original video ratio",
+      "none": "None"
+    },
+    "text": {
+      "subheading": "Subheading",
+      "heading": "Heading",
+      "heading_style": "Heading style",
+      "alignment": "Text alignment",
+      "title": "Title",
+      "content": "Content",
+      "text": "Text",
+      "secondary_text": "Secondary text",
+      "button_1_category": "Button 1",
+      "button_2_category": "Button 2",
+      "button_text": "Button text",
+      "button_link": "Button link",
+      "style": "Style",
+      "font_size_factor": "Font size factor",
+      "link": "Link",
+      "link_url": "Link URL",
+      "link_text": "Link text",
+      "link_style": "Link style",
+      "link_style_options": {
+        "outline": "Outline button",
+        "solid": "Solid button",
+        "link": "Link"
+      },
+      "button_style": "Button style",
+      "button_style_options": {
+        "outline": "Outline",
+        "solid": "Solid"
+      }
+    },
+    "image": {
+      "image": "Image",
+      "background_image": "Background image",
+      "mobile_image": "Mobile image",
+      "mobile_background_image": "Mobile background image",
+      "alignment": "Alignment",
+      "image_alignment": "Image alignment",
+      "size": "Image size",
+      "width": "Image width",
+      "mobile_width": "Mobile image width",
+      "width_options": {
+        "full_width": "Full width",
+        "custom": "Custom"
+      },
+      "maximum_width": "Maximum width",
+      "mobile_maximum_width": "Mobile maximum width",
+      "ratio_avoid_cropping_info": "Choose \"Original image ratio\" to avoid image cropping. [Learn more](https://help.shopify.com/en/manual/online-store/images/theme-images#best-practices-for-slidesh...)"
+    },
+    "section": {
+      "header_category": "Section header",
+      "separate_section_with_border": "Separate section with border",
+      "allow_transparent_header": "Allow transparent header",
+      "allow_transparent_header_info": "This setting only applies when this section is the first one."
+    },
+    "video": {
+      "video": "Video",
+      "mobile_video": "Mobile video",
+      "video_info": "Replaces external video URL if both are specified.",
+      "video_url": "External video URL",
+      "autoplay": "Autoplay",
+      "autoplay_info": "Video are muted to allow autoplay.",
+      "loop": "Enable video looping",
+      "show_controls": "Show video controls",
+      "video_size": "Video size",
+      "ratio_avoid_cropping_info": "Choose \"Original video ratio\" to avoid video cropping. [Learn more](https://help.shopify.com/en/manual/online-store/images/theme-images#best-practices-for-slidesh...)"
+    },
+    "position": {
+      "left": "Left",
+      "center": "Center",
+      "right": "Right",
+      "top": "Top",
+      "middle": "Middle",
+      "bottom": "Bottom",
+      "top_left": "Top left",
+      "top_center": "Top center",
+      "top_right": "Top right",
+      "middle_left": "Middle left",
+      "middle_center": "Middle center",
+      "middle_right": "Middle right",
+      "bottom_left": "Bottom left",
+      "bottom_center": "Bottom center",
+      "bottom_right": "Bottom right",
+      "content_position": "Content position",
+      "desktop_content_position": "Desktop content position",
+      "mobile_content_position": "Mobile content position"
+    },
+    "spacing": {
+      "spacing": "Spacing",
+      "column_spacing": "Column spacing",
+      "remove_vertical_spacing": "Remove vertical spacing",
+      "remove_horizontal_spacing": "Remove horizontal spacing"
+    },
+    "localization": {
+      "country_region_selector_category": "Country/region selector",
+      "country_region_selector_category_info": "To add a country/region, go to your [markets settings](/admin/settings/markets).",
+      "show_country_region_selector": "Show country/region selector",
+      "show_country_name": "Show country name",
+      "show_country_flag": "Show country flag",
+      "language_selector_category": "Language selector",
+      "language_selector_category_info": "To add a language, go to your [language settings](/admin/settings/languages).",
+      "show_locale_selector": "Show language selector"
+    },
+    "animation": {
+      "reveal_image_on_scroll": "Reveal image on scroll",
+      "reveal_on_scroll": "Reveal on scroll"
+    },
+    "faceting": {
+      "products_per_page": "Products per page",
+      "filters_and_sorting_category": "Filters and sorting",
+      "desktop_layout": "Desktop layout",
+      "desktop_layout_options": {
+        "sidebar": "Sidebar",
+        "horizontal": "Horizontal",
+        "drawer": "Drawer"
+      },
+      "show_sort_by": "Show sort by",
+      "show_filters": "Show filters",
+      "show_filters_info": "[Customize filters](https://help.shopify.com/manual/online-store/search-and-discovery/filters)",
+      "show_results_count": "Show product results count",
+      "show_group_name": "Show group name",
+      "show_group_name_info": "Group name will be shown inside selected filters.",
+      "show_filter_values_count": "Show filter values count",
+      "open_filters_by_default": "Open filters by default"
+    },
+    "code": {
+      "html": "HTML",
+      "liquid": "Liquid",
+      "liquid_info": "Add app snippets or other Liquid code to create advanced customizations."
+    },
+    "product_list": {
+      "product_list_category": "Product list",
+      "products_to_show": "Products to show",
+      "products_per_row_mobile": "Products per row (mobile)",
+      "products_per_row_desktop": "Products per row (desktop)",
+      "products_per_row_desktop_info": "Items per row can be changed automatically by the theme to avoid very narrow cards.",
+      "products_size_desktop": "Products size (desktop)",
+      "products_size_desktop_info": "Adjusted automatically to fit space.",
+      "products_size_desktop_options": {
+        "compact": "Compact",
+        "medium": "Medium",
+        "large": "Large"
+      },
+      "show_grid_mode_selector": "Show grid size selector",
+      "show_grid_mode_selector_info": "Allows customers to customize the size of products card.",
+      "stack_products": "Stack products",
+      "spacing_category": "Product list spacing",
+      "spacing_category_info": "A higher value increases spacing proportionally.",
+      "horizontal_spacing_factor": "Horizontal spacing factor",
+      "vertical_spacing_factor": "Vertical spacing factor",
+      "hide_product_information": "Hide product information",
+      "hide_product_information_info": "Create an immersive image-first experience by hiding product information.",
+      "hide_product_information_collection_info": "Create an immersive image-first experience by hiding product information. Product information is always hidden when compact mode is selected."
+    },
+    "blog": {
+      "show_excerpt": "Show excerpt",
+      "show_date": "Show date",
+      "show_author": "Show author",
+      "show_category": "Show category",
+      "show_category_info": "Add tag to organize blog posts. [Learn more](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#add-tags-to-a-blog-post).",
+      "show_read_more": "Show read more"
+    },
+    "icons": {
+      "icon": "Icon",
+      "custom_icon": "Custom icon",
+      "custom_icon_info": "128 x 128px .png recommended",
+      "icon_width": "Icon width",
+      "mobile_icon_width": "Mobile icon width",
+      "none": "None",
+      "shop_category": "Shop",
+      "award_gift": "Award gift",
+      "bag_handle": "Bag handle",
+      "building": "Building",
+      "coupon": "Coupon",
+      "gift": "Gift",
+      "info": "Info",
+      "love": "Love",
+      "percent": "Percent",
+      "star": "Star",
+      "shipping_category": "Shipping",
+      "box": "Box",
+      "delivery_truck": "Delivery truck",
+      "pin": "Pin",
+      "plane": "Plane",
+      "return": "Return",
+      "payment_and_security_category": "Payment & Security",
+      "credit_card": "Credit card",
+      "lock": "Lock",
+      "money": "Money",
+      "secure_profile": "Secure profile",
+      "shield": "Shield",
+      "ecology_category": "Ecology",
+      "earth": "Earth",
+      "leaf": "Leaf",
+      "recycle": "Recycle",
+      "tree": "Tree",
+      "tech_category": "Tech",
+      "at_sign": "At sign",
+      "bluetooth": "Bluetooth",
+      "camera": "Camera",
+      "printer": "Printer",
+      "smart_watch": "Smart watch",
+      "wifi": "WiFi",
+      "communication_category": "Communication",
+      "avatar": "Avatar",
+      "chat": "Chat",
+      "calendar": "Calendar",
+      "comment": "Comment",
+      "customer_support": "Customer support",
+      "happy_face": "Happy face",
+      "mailbox": "Mailbox",
+      "mobile_phone": "Mobile phone",
+      "operator": "Operator",
+      "phone": "Phone",
+      "send": "Send",
+      "user": "User",
+      "food_category": "Food & Drink",
+      "burger": "Burger",
+      "beer": "Beer",
+      "coffee": "Coffee",
+      "pizza": "Pizza",
+      "bottle": "Bottle",
+      "other_category": "Other",
+      "document": "Document",
+      "error": "Error",
+      "file": "File",
+      "jewelry": "Jewelry",
+      "mask": "Mask",
+      "music": "Music",
+      "not_allowed": "Not allowed",
+      "target": "Target",
+      "timer": "Timer",
+      "success": "Success"
+    }
+  },
+  "theme_settings": {
+    // ... all "theme_settings" from schemaprest
+  },
+  "blocks": {
+    // ... all "blocks" from schemaprest
+  }
+}
